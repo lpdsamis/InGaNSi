@@ -1,7 +1,14 @@
-# InGaN_Si-solar-cell
-2J solar cell InGaN_Si with solcore.
+# SolarCell
+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
+ 
+ echo "# SolarCell" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/lpdsamis/SolarCell.git
+git push -u origin main
 
-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
-
-
-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
+git remote add origin https://github.com/lpdsamis/SolarCell.git
+git branch -M main
+git push -u origin main
