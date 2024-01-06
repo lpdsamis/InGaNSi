@@ -1,6 +1,5 @@
-# SolarCell
-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
- 
+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
+
  echo "# SolarCell" >> README.md
 git init
 git add README.md
