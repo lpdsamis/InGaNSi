@@ -87,7 +87,7 @@
 %%             country={}}
 %% \fntext[label3]{}
 
-\title{Theoretical study to optimize the yield of InGaN/Si tandem solar cell using Solcore.}
+\title{Theoretical study to optimize the yield of $InGaN/Si$ tandem solar cell using Solcore.}
 
 %% use optional labels to link authors explicitly to addresses:
 %%\author[label1,label3]{}
@@ -105,7 +105,7 @@
 %%             state={},
 %%             country={}}
 
-\author{Abdelwahab Doha\fnref{label1}}
+\author{Abdelwahab Douha\fnref{label1}}
 \ead{doha@gmail.com}
 \affiliation[label1]{organization={University Tahri Mohamed of Bechar},
             addressline={B.P 417 route kenadsa}, 
@@ -124,7 +124,7 @@
 	             state={Bechar},
 	             country={Algeria}}
 \author{Abdelrahmane Belghachi\fnref{label1}}
-\ead{belghachi@gmail.com}
+\ead{abelghachi@yahoo.fr}
 
 \begin{abstract}
 Optical and electrical properties of $InGaN$ alloys is being intensively studied to be combined with silicon by implementing $SiO_{2}/Si3N4$ interlayers. Adhesion of nano-interlayer appears to reduce photonic electro-migration hurdle between $InGaN$ and $Si$, in order to achieve high-efficiency solar cell. However, a relatively thick layer of $InGaN$ is difficult to grow due to the relaxation issue in material. This issue can be avoided by eboxy layer. This work, we present an $InGaN/Si$ tandem solar cell modeled using Wien2k and Solcore softwares. We have shown that 25\% of indium is needed to ensure the current matching between the top cell and the bottom cell. With feasible structural parameters, we have shown that an efficiency near to 30\% can be achieved with $InGaN/Si$ tandem cell.
@@ -172,29 +172,40 @@ The $SiO_{2}$ inter-layer is used between the $InGaN$ and $Si$ junction to reduc
 \begin{table}[h!]
 	\begin{tabular}{@{}lcccc@{}}
 		\toprule
-		Parameters & Unites & $GaN$ & $InGaN$ & $Si$ \\ \midrule
+		$Parameters$ & $Unites$ & $GaN$ & $InGaN$ & $Si$ \\ \midrule
 		&  &  &  &  \\
-		Lattice constant & $A^{o}$ & ... & ... & ... \\
-		Electron affinity & $eV$ & 4.1 & ... & 4.05 \\
-		Band-gap & $eV$ & 3.42 & ... & ... \\
-		Effective mass of electrons ($m_e$) & ... & 0.2 & 0.07 & 0.36 \\
-		Heavy effective mass of holes ($m_hh$) & ... & 1.4 & 0.7 & 0.49 \\
-		Light effective mass of holes ($m_lh$) & ... & 0.3 & ... & 0.16 \\
-		Conduction band density of states ($N_c$) & ... & 2.30E+18 & ... & 3.20E+19 \\
-		Valence band density of states ($N_v$) & ... & 4.60E+19 & ... & 1.80E+19 \\
-		Mobility of electrons ($\mu$e) & $cm^{2}/( V.s)$ & 1000 & 300 & $\leq$ 1400 \\
-		Mobility of holes ($\mu$h) & $cm^{2}/( V.s)$ & 350 & 50 & $\leq$ 450 \\
-		Diffusion coefficient of electrons (De) &$cm^{2}$/s & 25 & ... & ... \\
-		Diffusion coefficient of holes (Dp) & $cm^{2}$/s & 9 & ... & ... \\
-		Thermal velocity of electrons (ve) & $m/s$ & 2.60E+05 & ... &  \\
-		Thermal velocity of holes (vp) & $m/s$ & 9.40E+04 & ... & ... \\
-		Static relative dielectric constant & ... & 8,9-10,4 & ... & ... \\
-		High-frequency relative dielectric constant & ... & 5.35 & ... & ... \\
-		\begin{tabular}[c]{@{}l@{}}Surface recombination velocity \\ of minority Electrons  ($Se$)\end{tabular} & cm/s & ... & 1.00E+06 & 1.00E+06 \\
-		\begin{tabular}[c]{@{}l@{}}Surface recombination velocity \\ of minority holes  ($Sh$)\end{tabular} & cm/s & ... & 1.00E+06 & 1.00E+06 \\
-		Lifetime of minority electrons  ($\mu_{e}$) & ... & ... & ... & ... \\
-		Lifetime of minority holes ($\mu_{h}$) & ... & ... & ... & ... \\
-		Shockley-Read-Hall lifetime ($\tau_{SRH}$) & ... & ... & 1.00E-05 & 5.00E-06 \\ \bottomrule
+		Lattice constant & $A^{o}$ & 5.186 & ... & 5.43 \\
+		Electron affinity & $eV$ & 4.1 & 5.44 & 4.05 \\
+		Band-gap & $eV$ & 3.42 & 1.9 & 1.2 \\
+		Effective mass of electrons ($m_e$) & $m_{0}$ & 0.2 & 0.07 & 0.36 \\
+		Heavy effective mass of holes ($m_{hh}$) & $m_{0}$ & 1.4 & 0.7 & 0.81 \\
+		Light effective mass of holes ($m_{lh}$) & $m_{0}$ & 0.3 & ... & 0.16 \\
+		
+		\begin{tabular}[c]{@{}l@{}}Density of states in 
+	    \\ the conduction band ($N_c$)
+	    \end{tabular} & $cm^{-3}$ & $2.3\times10^{18}$ & ... & $3.2\times10^{19}$ \\
+		\begin{tabular}[c]{@{}l@{}}Density of states in \\ the valence band ($N_v$)\end{tabular} & $cm^{-3}$ & $4.6\times10^{19}$ & ... & $1.8\times10^{19}$ \\
+		
+		Doping concentration of $p$ ($N_A$) & ... & $5\times 10^{17}$ & ... & $6\times 10^{17}$ \\
+		Doping concentration of $n$ ($N_D$) & ... &  $5\times 10^{17} $ & ... & $6\times 10^{17} $ \\
+		
+		Mobility of electrons ($\mu_{e}$) & $cm^{2}/( V.s)$ & 1000 & 300 & 1400 \\
+		Mobility of holes ($\mu_{h}$) & $cm^{2}/( V.s)$ & 350 & 50 & 450 \\
+		Diffusion coefficient of electrons ($D_{e}$) &$cm^{2}$/s & 25 & ... & ... \\
+		Diffusion coefficient of holes ($D_{h}$) & $cm^{2}$/s & 9 & ... & ... \\
+		Thermal velocity of electrons ($v_{e}$) & $m/s$ & $2.6\times 10^{5}$ & ... &  \\
+		Thermal velocity of holes ($v_{h}$) & $m/s$ & $9.4\times 10^{4}$ & ... & ... \\
+		Static relative dielectric constant ($\epsilon_{0}$) & ... & 8.9 & 11.7 & 11.9 \\
+		\begin{tabular}[c]{@{}l@{}}High-frequency relative \\ dielectric constant ($\epsilon_{\infty}$)\end{tabular} & ... & 5.35 & ... & ... \\
+		\begin{tabular}[c]{@{}l@{}}Surface recombination velocity \\ of minority Electrons  ($S_{n}$)\end{tabular} & $cm/s$ & ... & $1\times 10^{6}$ & $1\times 10^{6}$ \\
+		\begin{tabular}[c]{@{}l@{}}Surface recombination velocity \\ of minority holes  ($Sp$)\end{tabular} & $cm/s$ & ... & $1\times 10^{6}$ & $1\times 10^{6}$ \\
+		
+		Auger recombination for electrons ($R_{A}$) & $cm^{6}s^{−1}$ & ... & $1.5 \times10^{-30}$ & ... \\
+		Auger recombination for holes ($R_{A}$) & $cm^{6}s^{−1}$ & ... & $1.5 \times10^{-30}$ & ... \\
+					
+		Lifetime of minority electrons  ($\tau_{n}$) & $ns$ & ... & 1 & $10^{3}$ \\
+		Lifetime of minority holes ($\tau_{p}$) & $ns$ & ... & 1 & $10^{3}$ \\
+		Shockley-Read-Hall lifetime ($\tau_{SRH}$) & $ns$ & ... & $1\times 10^{-5}$ & $5\times 10^{-6}$ \\ \bottomrule
 	\end{tabular}
 	\caption{Parameters used in the electrical simulation. The values for high quality $Si$ are taken from standard references except for
 		$\tau_{SRH}$, which is a generic value [Ref.5]. The effective masses are density of state effective masses. Values for high quality $InGaN$ are taken from the literature except for $\tau_{SRH}$ and $B$, which are generic values see [Ref.5]. Values for low quality material are obtained as described in the text.}
@@ -202,7 +213,7 @@ The $SiO_{2}$ inter-layer is used between the $InGaN$ and $Si$ junction to reduc
 \end{table}
 
 \section{Resultat and Discution} \label{sec:R_D}
-The energy band diagram under the equilibrium condition of the band alignment of $InGaN$ and $Si$ is illustrated in Fig.\ref{fig:ingansi} can be exploited for the fabrication studied structure of tandem $InGaN/Si$ heterojunction solar cells that may have power conversion efficiency. The simulation starts from the nominal layer thickness and refractive index calculated using $Wien2k$, and we process this optimization in two stages: Visual simulation to obtain approximate total thicknesses for each link, and then device optimization. Using the $TMM$ simulation to calculate the photogenerated current in each layer, we get an estimate of the total thickness of each material we will need to achieve current matching, from a purely optical point of view the bottom cell $Si$ should be thick to maximize absorption, which of course is not the case for the device. Once we have good values for the layer thicknesses, we use full electrical simulation to determine the n and p thicknesses to calculate the optimal possible efficiency of the tandem solar cell device. Fig.\ref{fig:absref} shows the absorption in each layer using the optimized thicknesses. Now that the layer thickness is optimized from an optical point of view, we want to design the device. Once we have good initial values for the total layer thicknesses, we use full electrical simulation to determine the $n$ and $p$ type layer thicknesses to calculate a maximum possible efficiency. Fig.\ref{fig:iv} shows the calculated voltage-current curves for the best thikness of an $In_{0.54}Ga_{0.46}N/Si$ tandem cell device. The IV curve looks reasonably good.
+The energy band diagram under the equilibrium condition of the band alignment of $InGaN$ and $Si$ is illustrated in Fig.\ref{fig:ingansi} can be exploited for the fabrication studied structure of tandem $InGaN/Si$ heterojunctions solar cells that may have power conversion efficiency. To understand of these heterojunctions, a band diagram as shown $ \xi_{1}$ and $ \xi_{2}$ are the electron affinities for both $InGaN$ and $Si$. Therefore, the conduction band of $InGaN$ is below the conduction band of $Si$ and the valence band of $InGaN$ lies below the valence band of $Si$, leading to the formation of a type II heterojunction. The simulation starts from the nominal layer thickness and refractive index calculated using $Wien2k$, and we process this optimization in two stages: Visual simulation to obtain approximate total thicknesses for each link, and then device optimization. Using the $TMM$ simulation to calculate the photogenerated current in each layer, we get an estimate of the total thickness of each material we will need to achieve current matching, from a purely optical point of view the bottom cell $Si$ should be thick to maximize absorption, which of course is not the case for the device. Once we have good values for the layer thicknesses, we use full electrical simulation to determine the n and p thicknesses to calculate the optimal possible efficiency of the tandem solar cell device. Fig.\ref{fig:absref} shows the absorption in each layer using the optimized thicknesses. Now that the layer thickness is optimized from an optical point of view, we want to design the device. Once we have good initial values for the total layer thicknesses, we use full electrical simulation to determine the $n$ and $p$ type layer thicknesses to calculate a maximum possible efficiency. Fig.\ref{fig:iv} shows the calculated voltage-current curves for the best thikness of an $In_{0.54}Ga_{0.46}N/Si$ tandem cell device. The IV curve looks reasonably good.
 
 Fig.\ref{fig:nk} shows us the $n$ and $k$ data for the materials used in this tandem solar cell modeling.
 \begin{figure}[h!]
@@ -242,14 +253,12 @@ Fig.\ref{fig:nk} shows us the $n$ and $k$ data for the materials used in this ta
 	    \multicolumn{1}{l}{Efficiency (\%)} \\ \midrule
 		$In_{054}Ga_{0.46}N$ & 32.94 & 1.02 & 87.5 & 29.02 \\
 		$Si$ & 35.02 & 0.72 & 84.9 & 21.5 \\
-		$In_{054}Ga_{0.46}N/Si$ & --- & --- & --- & 30,31\cite{bib14}, 35.2\cite{bib15}, 36.5\cite{bib16}, 37.23\cite{bib17}. 
+		$In_{054}Ga_{0.46}N/Si$ & 34.01 & 1.62 & 91.55 & 30.31\cite{bib14}, 35.2\cite{bib15}, 36.5\cite{bib16}, 37.23\cite{bib17}. 
 		 \\ \bottomrule
 	\end{tabular}
-	\caption{Simulation result of single junction for $InGaN$, $Si$ and tandem solar cell for $In_{054}Ga_{0.46}N/Si$.}
+	\caption{Photovoltaic parameters of the top $InGaN$, bottom $Si$, and tandem $In_{054}Ga_{0.46}N/Si$ cells.}
 	\label{tab:result}
 \end{table}
-
-% 
 
 From the above table \pageref{tab:result}, it can be said that the $InGaN/Si$ tandem solar cell device gives the best efficiency theoretically, it has not yet been proven due to the intrinsic defects of the cell caused by the high indium content. In this work based on simulation results supported by the electrical and optical characteristics of the device. We found that the addition of 54\% indium to gallium nitride is promising for use in an $InGaN/Si$ solar cell where the top $InGaN$ cell is matched with the bottom $Si$ cell. the solar cell can also be enhanced by optimizing not only the doping and thickness of each solar cell layer, but also by adding indium content as well. 
 
