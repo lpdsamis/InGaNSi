@@ -1,0 +1,40 @@
+[InGaN]
+In = 0.542
+lattice_constant = 4.76 Angstrom
+Eg0_Gamma = 1.8 eV
+alpha_Gamma = 0.4049 meV K-1
+beta_Gamma = 613.0 K
+Eg0_X = 3.43 eV
+alpha_X = 0.4049 meV K-1
+beta_X = 613.0 K
+Eg0_L = 5.72 eV
+alpha_L = 0.4049 meV K-1
+beta_L = 613.0 K
+valence_band_offset = -2.50 eV
+eff_mass_split_off = 0.2954
+gamma1 = 3.24
+gamma2 = 1.02642
+gamma3 = 1.38726
+eff_mass_DOS_L=0.22 
+eff_mass_DOS_X=0.22 
+
+eff_mass_electron=0.07
+eff_mass_hh_z=0.7
+eff_mass_lh_z=0.2
+
+interband_matrix_element = 25.034 eV
+spin_orbit_splitting = 0.011 eV
+F = -1.9227
+a_c = -2.013 eV
+a_v = -3.1989 eV
+b = -1.66 eV
+d = -6.606 eV
+eff_mass_electron_Gamma = 0.13374
+c11 = 235.548 GPa
+c12 = 140.572 GPa
+c44 = 117.602 GPa
+relative_permittivity = 11.7
+electron_affinity = 5.448 eV
+electron_auger_recombination = 1.1e-42
+hole_auger_recombination = 3e-43
+radiative_recombination = 1.1e-20
