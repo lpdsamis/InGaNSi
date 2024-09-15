@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Doha.aux
+The style file: elsarticle-num.bst
+Database file #1: Ref_Doh.bib
+You're missing a field name---line 280 of file Ref_Doh.bib
+ :  
+ :  %volume    = {42},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "Fara, L., Yamaguchi,M." for entry book1
+while executing---line 1497 of file elsarticle-num.bst
+You've used 24 entries,
+            2952 wiz_defined-function locations,
+            824 strings with 10197 characters,
+and the built_in function-call counts, 7821 in all, are:
+= -- 698
+> -- 394
+< -- 1
++ -- 147
+- -- 123
+* -- 610
+:= -- 1169
+add.period$ -- 24
+call.type$ -- 24
+change.case$ -- 24
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 208
+empty$ -- 781
+format.name$ -- 144
+if$ -- 1931
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 24
+newline$ -- 80
+num.names$ -- 26
+pop$ -- 129
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 461
+stack$ -- 0
+substring$ -- 448
+swap$ -- 38
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 57
+width$ -- 26
+write$ -- 204
+(There were 2 error messages)
